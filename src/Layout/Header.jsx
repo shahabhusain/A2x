@@ -42,7 +42,7 @@ const Header = () => {
 
   return (
       <>
-     <div className='bg1 '>
+     <div className='bgg12 '>
             <div className='flex items-center justify-between py-3 px-12'>
              <div className=' flex items-center gap-2'>
                 <div id='circle' className=' w-[35px] h-[35px] bg-[#DCFFAA] rounded-full'></div>
