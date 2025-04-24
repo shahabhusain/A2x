@@ -2,7 +2,119 @@
 @import "tailwindcss";
 
 .bg1{
+  background-image: url(../src/assets/mainbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.bgg11{
+  background-image: url(../src/assets/mainbg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg1{
   background-image: url(../src/assets/main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg2 {
+  background-image: url(../src/assets/bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 677px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bgg3 {
+  background-image: url(../src/assets/bg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 677px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg4 {
+  background-image: url(../src/assets/bg3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 677px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg5 {
+  background-image: url(../src/assets/bg4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 677px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg6 {
+  background-image: url(../src/assets/bg5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 677px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg7 {
+  background-image: url(../src/assets/bg6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 677px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg8 {
+  background-image: url(../src/assets/bg7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 677px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.bg3{
+  background-image: url(../src/assets/Group\ 29.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

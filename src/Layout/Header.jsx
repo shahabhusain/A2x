@@ -3,6 +3,13 @@ import Hero from '../components/Home/Hero'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import Text from '../components/Home/Text';
+import About from '../components/Home/About';
+import A2x from '../components/Home/A2x';
+import Serving from '../components/Home/Serving';
+import Blogo from '../components/Home/Blogo';
+import Experiance from '../components/Home/Experiance';
+import Contact from '../components/Home/Contact';
+import { Link } from 'react-router-dom';
 const Header = () => {
 
     useGSAP(()=>{
@@ -34,24 +41,33 @@ const Header = () => {
     })
 
   return (
-    <div className='bg1 '>
+      <>
+     <div className='bg1 '>
             <div className='flex items-center justify-between py-3 px-12'>
              <div className=' flex items-center gap-2'>
                 <div id='circle' className=' w-[35px] h-[35px] bg-[#DCFFAA] rounded-full'></div>
                 <h2 className=' flex items-center text-[23px] font-[700] text-[#2E3D32]'><span>A</span><span>2</span><span>Z</span><span>H</span><span>e</span><span>a</span><span>l</span><span>t</span> <span>h</span> <span>C</span><span>a</span><span>r</span><span>e</span></h2>
              </div>
         <ul className=' bg-[#fff6] py-3 px-5 rounded-full flex items-center gap-3 z-[1000]'>
-            <li className=' py-2 px-4 bg-white text-black cursor-pointer rounded-full'>Home</li>
-            <li className=' py-2 px-4 bg-white text-black cursor-pointer rounded-full'>About</li>
-            <li className=' py-2 px-4 bg-white text-black cursor-pointer rounded-full'>Services</li>
-            <li className=' py-2 px-4 bg-white text-black cursor-pointer rounded-full'>Carrer</li>
+            <Link to="/" className=' py-2 px-4 bg-white text-black cursor-pointer rounded-full'>Home</Link>
+            <Link to="/about" className=' py-2 px-4 bg-white text-black cursor-pointer rounded-full'>About</Link>
+            <Link to="/services" className=' py-2 px-4 bg-white text-black cursor-pointer rounded-full'>Services</Link>
+            <Link to="/carrer" className=' py-2 px-4 bg-white text-black cursor-pointer rounded-full'>Carrer</Link>
             <li className=' py-2 px-4 bg-white text-black cursor-pointer rounded-full'>Blog</li>
         </ul>
             <button id='button' className=' bg-white text-black py-2 px-5 z-[1000] cursor-pointer rounded-full'>Login</button>
             </div>
             <Hero />
-            {/* <Text /> */}
+            
     </div>
+      <Text />
+      <About />
+      <A2x /> 
+      <Serving />
+      <Blogo />
+      <Experiance />
+      <Contact />
+      </>
   )
 }
 

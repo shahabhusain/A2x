@@ -78,19 +78,17 @@ const Home = () => {
 
   return (
     <div className="relative" ref={comp}>
-      {/* Loader */}
       {count <= 100 && (
         <div
           id="intro-slider"
           className="h-screen p-10 bg-white absolute top-0 left-0 font-spaceGrotesk z-10 w-full flex flex-col items-center justify-center"
         >
-          {/* Guwawa bouncing shape */}
-          <div
+        
+           <div
             ref={guwawaRef}
             className="w-[120px] h-[120px] bg-[#aaffcc] rounded-full shadow-lg mb-8"
           ></div>
 
-          {/* Fade-swap texts */}
           <h1
             id="text1"
             className="text-[20px] font-bold text-[#333] absolute top-[27rem] opacity-0"
@@ -110,18 +108,19 @@ const Home = () => {
             Avocato Health
           </h1>
 
-          {/* Count & Message */}
           <h1 className="text-[44px] font-bold text-[#222] absolute bottom-12 right-12">
             {count}%
           </h1>
           <h1 className="text-[24px] font-bold text-[#222] absolute bottom-14 left-12">
             Your care is on the way
           </h1>
-        </div>
-      )}
+        </div> 
+      )} 
 
       {/* Main site */}
       {showHeader && <Header />}
+     
+     
     </div>
   );
 };
